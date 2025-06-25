@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password_hash": {
+          "type": "string"
+        },
+        "full_name": {
+          "type": "string"
+        },
+        "department": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "create_at": {
+          "type": "string"
+        },
+        "update_at": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "email",
+        "password_hash",
+        "full_name",
+        "department",
+        "title",
+        "create_at",
+        "update_at"
+      ]
+    }
+  ]
+}
