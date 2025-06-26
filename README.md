@@ -24,7 +24,7 @@ git clone git@github.com:hairulhasabi/Afteroffice_selenium.git
 
 ### Masuk Ke Folder
 ```bash
-cd afteroffice-automation
+cd Afteroffice-selenium
 ```
 
 ### Instalasi Dependency
